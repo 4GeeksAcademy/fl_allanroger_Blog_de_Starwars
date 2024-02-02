@@ -1,3 +1,4 @@
+// demo.js
 import React, { useState, useEffect, useContext } from "react";
 import { Link } from "react-router-dom";
 
@@ -9,7 +10,7 @@ export const Demo = () => {
 	const { store, actions } = useContext(Context);
 
 	return (
-		<div className="container">
+		<div className="container bg-dark">
 			<ul className="list-group">
 				{store.demo.map((item, index) => {
 					return (
